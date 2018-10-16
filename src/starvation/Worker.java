@@ -20,7 +20,8 @@ public class Worker {
         } catch (IOException ex) {
             ex.printStackTrace();
         }
- 
+        
+//        while(i<1) {
         while (true) {
             try {
                 Thread.sleep(200);
@@ -30,14 +31,5 @@ public class Worker {
                 ex.printStackTrace();
             }
         }
-        
-//        for(i=0;i<10;i++){
-//            try {
-//                Thread.sleep(200);
-//                System.out.println(name + " is working");
-//            } catch (InterruptedException ex) {
-//                
-//            }
-//        }
     }
 }
